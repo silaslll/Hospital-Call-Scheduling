@@ -1,15 +1,15 @@
 # Hospital-Call-Scheduling
 
 
-1 Clone table into local
+1 Clone repo into local
 
-in the terminal type:
+In the terminal type:
 git clone https://github.com/silaslll/Hospital-Call-Scheduling.git
 
 
 2 Migrate database
 
-in the terminal type:
+In the terminal type:
 python manage.py makemigrations
 and:
 python manage.py migrate
