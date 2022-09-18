@@ -1,0 +1,6 @@
+<html>
+    <form action="{% url 'docinfos.new' %}" method='POST'>{% csrf_token %}
+        {{ form }}
+    <button type="submit">Submit</button>
+    </form>
+</html>
