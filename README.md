@@ -4,14 +4,18 @@
 1 Clone repo into local
 
 In the terminal type:
+
 git clone https://github.com/silaslll/Hospital-Call-Scheduling.git
 
 
 2 Migrate database
 
 In the terminal type:
+
 python manage.py makemigrations
+
 and:
+
 python manage.py migrate
 
 
@@ -21,6 +25,7 @@ python manage.py runserver
 
 
 4 In the browser, test the follwing url:
+
 To create new info:
 http://localhost:8000/docinfos/new
 
