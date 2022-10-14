@@ -3,7 +3,9 @@
 
     <ul>
         {% for DocInfo in DocInfos %}
-        <li>{{DocInfo.input1}}, {{DocInfo.input2}}</li>
+        <li>{{DocInfo.people}}, {{DocInfo.rotations}}, {{DocInfo.block}}, 
+            {{DocInfo.allYearResidents}}, {{DocInfo.partialYearResidents}}, {{DocInfo.mustDo}},
+            {{DocInfo.busyRotations}}, {{DocInfo.preference}}, {{DocInfo.impossibleAssignments}}, {{DocInfo.vacation}}</li>
         {% endfor %}
     </ul>
 </html>

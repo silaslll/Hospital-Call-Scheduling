@@ -11,6 +11,6 @@ def list(request):
 
 class DocInfosCreateView(CreateView):
     model = DocInfos
-    fields = ['input1', 'input2']
+    fields = ['people', 'rotations', 'block', 'allYearResidents', 'partialYearResidents', 'mustDo', 'busyRotations', 'preference', 'impossibleAssignments', 'vacation']
     success_url = "/docinfos"
     template_name = 'home/inputForm.html'
